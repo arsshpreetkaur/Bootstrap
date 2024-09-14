@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Frameworks</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+    <div class="container-lg">
+      <a class="navbar-brand fw-bold text-muted" href="#">Web Frameworks</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-links" aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="nav-links">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Frameworks</a>
+          </li>
+          <li class="nav-item d-none d-lg-block">
+            <a class="btn btn-outline-primary ms-2" href="#">Login / Register</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- breadcrumbs -->
+  <div class="container-lg mt-3">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Web Frameworks</li>
+      </ol>
+    </nav>
+  </div>
+
+  <!-- framework overview -->
+  <section class="py-5">
+    <div class="container-lg">
+      <div class="row align-items-center g-5">
+        <div class="col-md-6">
+          <h1>Top Web Development Frameworks</h1>
+          <p class="lead">Explore the leading frameworks that power modern web development.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- framework details -->
+  <section class="bg-light py-5">
+    <div class="container-lg mb-5">
+      <div class="row g-5 justify-content-around">
+        <div class="col-md-4">
+          <div class="card bg-secondary text-white mb-3">
+            <h5 class="card-header">React</h5>
+            <div class="card-body">
+              <p class="card-text">A JavaScript library for building user interfaces. Developed by Facebook, React is known for its component-based architecture and virtual DOM.</p>
+              <a href="https://reactjs.org/" class="btn btn-outline-light">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-secondary text-white mb-3">
+            <h5 class="card-header">Angular</h5>
+            <div class="card-body">
+              <p class="card-text">A platform and framework for building single-page client applications using HTML and TypeScript. Developed by Google, Angular is known for its powerful tools and robust structure.</p>
+              <a href="https://angular.io/" class="btn btn-outline-light">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-secondary text-white mb-3">
+            <h5 class="card-header">Vue.js</h5>
+            <div class="card-body">
+              <p class="card-text">A progressive framework for building user interfaces. Vue.js is designed to be incrementally adoptable and is easy to integrate with other projects and libraries.</p>
+              <a href="https://vuejs.org/" class="btn btn-outline-light">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <section class="py-5 bg-light text-muted">
+    <div class="container-lg text-center">
+      <p>
+        Copyright 2024 Web Frameworks
+      </p>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
